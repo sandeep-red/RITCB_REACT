@@ -1,0 +1,54 @@
+.navbarpage_h1{
+    letter-spacing: 0.8px;
+    font-size: 22px;
+    font-weight: 600;
+    margin:5px;
+    margin-left:15px;
+    color:white;
+}
+.navbarpage_h1:hover{
+    text-decoration: none;
+}
+.navbarpage_ul{
+    display: flex;
+    justify-content: flex-end;
+    flex:1;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-top:15px;
+    margin-right:20px;
+    /* align-items: center; */
+}
+.navbarpage_link{
+    margin:0px 15px;
+    align-items: center;
+    justify-content: center;
+}
+.navbarpage_link:hover{
+    text-decoration: none;
+    color:white;
+}
+.navbarpage_p{
+    display: flex;
+}
+.title_text {
+    display: flex;
+    align-items: center;
+}
+
+.myimg {
+    width: 36px;
+    height: 36px;
+    border-radius: 3px;
+}
+
+@media (max-width: 992px) {
+    .navbarpage_ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex:1;
+        font-size: small;
+        /* align-items: center; */
+    }
+}

@@ -1,0 +1,56 @@
+button{
+    /* margin: 20px; */
+    border-radius:15px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #556be9;
+    transition: 0.2s ease-in-out;
+    background-color: aliceblue;
+}
+button:hover{
+    background-color: #556be9;
+    color: aliceblue;
+}
+
+
+table {
+  /* border: 1px solid black; */
+  /* border-collapse: collapse; */
+  margin:20px;
+  margin-bottom: 2px;
+  width:95%;
+}
+ th,td {
+  padding: 5px;
+  border: 1px solid #556be9;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+}
+
+/* th {
+  text-align: center;
+ 
+} */
+
+/* .table__del{
+    display: flex;
+} */
+@media only screen and (max-width: 475px){
+    /* table{
+        margin: 10px;
+        width:75%;
+    } */
+table,th,td{
+    margin:5px;
+    font-size: xx-small !important;
+}
+}
+@media only screen and (max-width: 765px){
+    table,th,td{
+        font-size: small;
+    }
+    /* table{
+        width:90%;
+    } */
+    }
